@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Design.TextInputEditText.underline"
+        parent="Widget.Design.TextInputEditText">
+        <item name="hintTextAppearance">@style/AppTheme.TextFloatLabelAppearance</item>
+    </style>
+
+    <style name="AppTheme.TextFloatLabelAppearance"
+        parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">#F458EC</item>
+        <item name="android:textSize">10sp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+    </style>
+
+</resources>
