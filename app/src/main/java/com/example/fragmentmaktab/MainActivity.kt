@@ -1,7 +1,9 @@
 package com.example.fragmentmaktab
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
@@ -13,6 +15,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         resources.getIdentifier("head1", "drawable", packageName).toast()
         init()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menu.add("Login").setOnMenuItemClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
+            false
+        }
+        menu.add("Game").setOnMenuItemClickListener {
+            startActivity(Intent(this, QuizGameActivity::class.java))
+            false
+        }
+        return super.onCreateOptionsMenu(menu)
     }
 
     private fun init() {

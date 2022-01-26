@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
         addLogin()
     }
 
-    fun addLogin() {
+    private fun addLogin() {
         supportFragmentManager.commit {
             setReorderingAllowed(true)
             add<LoginFragment>(R.id.loginContainer)
@@ -37,13 +37,5 @@ class LoginActivity : AppCompatActivity() {
         super.onBackPressed()
     }
 
-    override fun onBackPressed() {
-        //
-    }
-
-    inner class Binder {
-        fun getActivity(): LoginActivity {
-            return this@LoginActivity
-        }
-    }
+    override fun onBackPressed() {}
 }

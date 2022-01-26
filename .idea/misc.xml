@@ -4,12 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/drawable/simple_circle.xml" value="0.2703125" />
+        <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout-land/a.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout-land/game_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout-port/game_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout/activity_game_answer.xml" value="0.264" />
         <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout/activity_quiz_game.xml" value="0.13541666666666666" />
         <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout/login_fragment.xml" value="0.264" />
         <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout/my_fragment.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout/save_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/vcc/AndroidStudioProjects/FragmentMaktab/app/src/main/res/layout/test_fragment.xml" value="0.264" />
       </map>
     </option>
   </component>
